@@ -58,6 +58,7 @@ public class AccountService implements IAccountService {
         Account targetAccount = null;
         List<Account> allAccounts = getUserAllAccounts(userID);
         for(Account account : allAccounts){
+
             if(Objects.equals(account.getAccountID(), accountID)){
                 return account; // can use this as example of bug for AI analysis
                 // it was written as return targetAccount
