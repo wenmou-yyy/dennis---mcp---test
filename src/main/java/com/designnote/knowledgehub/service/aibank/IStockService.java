@@ -10,6 +10,7 @@ import java.util.List;
 public interface IStockService {
 
     Stock getStock(Integer stockID);
+    
     List<Stock> getAllStocks();
 
 }
