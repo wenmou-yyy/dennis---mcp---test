@@ -16,4 +16,9 @@ src/
 ```
 
 ## 核心服务接口
-### 股票服务接口 `<mcfile name=
+### 股票服务接口
+`StockService.java` 提供以下核心接口：
+- `getAllStocks()`: 获取所有股票列表。
+- `getStock(Integer stockID)`: 根据股票 ID 获取单个股票信息，若股票不存在则抛出异常。
+
+###
